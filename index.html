@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+
+        <title>Guess what I'm thinking</title>
+        
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/index.js" defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <a href="#nogo"><h1>Guess the Number</h1></a>
+        </header>
+
+        <main class="container">
+            <form id="form">
+                <label for="guess">Type a number (0 - 10):</label>
+                <input type="number" id="guess" max="10" min="0" placeholder="Guess what I'm thinking, bro">
+
+                <button type="submit">Guess!</button>
+            </form>
+
+            <section class="result-box" id="result">
+                <h2 id="status">Give a try, dude</h2>
+                <span id="attempt">Attempts: 0</span>
+            </section>
+
+            <button id="btnRestart" onclick="_restart()">Guess again!</button>
+        </main>
+
+        <footer>
+            <p>Yuri Araujo - Guess the Number, 2021 &copy;</p>
+        </footer>
+    </body>
+</html>

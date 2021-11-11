@@ -6,6 +6,12 @@ I'm new to JS.
 
 My developers friends have always made me afraid to work with JS because of their stories of how hard it is to work with... So I decided to give it a go.
 
+## Contents
+
+* [Screenshots](https://github.com/yuri-arauj0/Guess-Number/blob/main/README.md#screenshots)
+* [References](https://github.com/yuri-arauj0/Guess-Number/blob/main/README.md#references)
+* [Contributions](https://github.com/yuri-arauj0/Guess-Number/blob/main/README.md#contributions)
+
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/86196750/141225532-7b6b991a-471b-4c4f-b9a7-e7e417e37e21.png "Screenshot #1 - Guess the Number")
 
